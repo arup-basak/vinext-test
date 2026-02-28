@@ -1,40 +1,41 @@
 {
-  "name": "my-app",
+  "name": "vinext-test",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start",
     "lint": "next lint",
-    "db:studio": "drizzle studio",
-    "db:push": "drizzle push"
+    "db:studio": "drizzle-kit studio",
+    "db:push": "drizzle-kit push"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.2",
     "@neondatabase/serverless": "^1.0.2",
+    "@tanstack/react-query": "^5.90.21",
     "clsx": "^2.1.1",
-    "drizzle": "^1.4.0",
     "drizzle-orm": "^0.45.1",
-    "gsap": "^3.13.0",
-    "lucide-react": "^0.562.0",
-    "next": "16.0.3",
+    "lucide-react": "^0.575.0",
+    "motion": "^12.34.3",
+    "next": "16.1.6",
     "postgres": "^3.4.8",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "sonner": "^2.0.7",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.5.0",
+    "vinext": "^0.0.15"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^24",
+    "@types/node": "^25",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "drizzle-kit": "^0.31.8",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.3",
+    "drizzle-kit": "^0.31.9",
+    "eslint": "^10",
+    "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vite": "^7.3.1"
   }
 }

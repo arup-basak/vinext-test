@@ -1,7 +1,5 @@
-"use client";
-
-import MarathonLanding from "@/components/MarathonLanding";
+import { TaskBoard } from "@/components/task-board";
 
 export default function Home() {
-  return <MarathonLanding />;
+  return <TaskBoard />;
 }
