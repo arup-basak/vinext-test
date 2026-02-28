@@ -6,7 +6,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "start": "vinext start",
-    "lint": "next lint",
+    "lint": "vinext lint",
     "db:studio": "drizzle-kit studio",
     "db:push": "drizzle-kit push"
   },
@@ -17,7 +17,6 @@
     "drizzle-orm": "^0.45.1",
     "lucide-react": "^0.575.0",
     "motion": "^12.34.3",
-    "next": "16.1.6",
     "postgres": "^3.4.8",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
